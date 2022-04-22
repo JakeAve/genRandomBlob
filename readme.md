@@ -5,7 +5,7 @@ Generate a blob of random bits (psuedo random using `Crypto.getRandomValues`) gi
 ## Usage
 
 ```typescript
-import { genRandomBlob } from "https://deno.land/x/gen_random_blob@v0.0.2/genRandomBlob.ts";
+import { genRandomBlob } from "https://deno.land/x/gen_random_blob@0.0.3/genRandomBlob.ts";
 
 const blob = genRandomBlob(1024);
 console.log(blob.size); // 1024
